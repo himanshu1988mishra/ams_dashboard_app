@@ -28,7 +28,9 @@ function App() {
             <Item>Filters</Item>
           </Grid>
           <Grid item xs={12}>
-            <Item>{/* <AMSDashboard /> */}</Item>
+            <Item>
+              <AMSDashboard />
+            </Item>
           </Grid>
           <Grid item xs={12}>
             <Item>Footer</Item>

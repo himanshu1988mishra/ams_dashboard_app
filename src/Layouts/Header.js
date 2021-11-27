@@ -1,4 +1,4 @@
-import React, { ReactElement, FC } from "react";
+import React from "react";
 
 const Header = ({ title }) => {
   return <div>{title}</div>;
