@@ -20,7 +20,7 @@ function App() {
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Item>
-              <Header title="Dashboard Application" />
+              <Header title="Daily Sales" />
             </Item>
           </Grid>
           <Grid item xs={12}>
