@@ -15,12 +15,11 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function App() {
   return (
-    <Container fixed>
+    <Container maxWidth="xl">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <Item>
-              {" "}
               <Header title="Dashboard Application" />
             </Item>
           </Grid>

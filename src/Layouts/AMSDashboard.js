@@ -12,6 +12,7 @@ import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import { red } from "@mui/material/colors";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
@@ -59,12 +60,6 @@ const AMSDashboard = () => {
           <Item>
             <VerticalBarChart />
           </Item>
-        </Grid>
-        <Grid item xs={4}>
-          <Item>1st</Item>
-        </Grid>
-        <Grid item xs={8}>
-          <Item>xs=8</Item>
         </Grid>
       </Grid>
     </>
